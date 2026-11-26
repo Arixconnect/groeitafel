@@ -62,7 +62,7 @@ Alles hieronder is open tenzij expliciet aangevinkt. De huidige versie is een de
 ## Publiceren
 
 - [x] Lokale Git-repository, lockfile en documentatie aanwezig.
-- [ ] Juiste GitHub-organisatie en repository vaststellen; pas daarna pushen.
+- [x] GitHub-repository vastgesteld op verzoek van Arix: `Arixconnect/groeitafel` (privé), branch `main`.
 - [ ] Privé conceptpreview in een beschikbare hostingomgeving maken.
 - [ ] CI met tests, typecheck en statische build inrichten.
 - [ ] Back-up, rollback en beheerder afspreken.

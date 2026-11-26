@@ -25,7 +25,7 @@ Open http://localhost:3000. `npm start` doet hetzelfde als `npm run preview`. Di
 
 De meegeleverde ZIP bevat de gebouwde `out/`-map. Na uitpakken volstaat `node scripts/preview.mjs` om die versie te bekijken, zonder npm-installatie of internet. Open HTML niet rechtstreeks met `file://`: routes en assets verwachten een webserver. De server is uitsluitend voor lokale preview; gebruik voor productie een geschikte statische host.
 
-**Status van de online preview:** de beheerde preview-relay kon poort 4173 niet openen; Sites is niet ingeschakeld voor deze workspace. Ook het browserhulpmiddel kon niet initialiseren. Er is daarom geen geverifieerde online preview-URL. De broncode en lokale preview zijn voorbereid, maar visuele browser-QA blijft open. Er is niets op groeitafel.nl gepubliceerd en er is niets gepusht.
+**Status van de online preview:** de beheerde preview-relay kon poort 4173 niet openen; Sites is niet ingeschakeld voor deze workspace. Ook het browserhulpmiddel kon niet initialiseren. Er is daarom geen geverifieerde online preview-URL. De broncode en lokale preview zijn voorbereid, maar visuele browser-QA blijft open. Er is niets op groeitafel.nl gepubliceerd. De broncode staat in de afgesproken GitHub-repository; dit maakt de website nog niet online beschikbaar.
 
 ## Wat werkt
 
@@ -93,19 +93,28 @@ Behoud de demo-checkout totdat de productiechecklist is afgewerkt. Eventbrite is
 
 De frontend bewaart geen gezaghebbende prijzen of betaalstatus. In productie: server valideert product-ID, bedrag en voorraad; provider-webhooks bevestigen betaling; idempotentie voorkomt dubbele afhandeling. Splits een gemengde mand zichtbaar in ticket- en accessoireafrekening. Zie `docs/productiechecklist.md`.
 
-## Git en later GitHub koppelen
+## GitHub en samenwerken
 
-Er is lokaal Git geïnitialiseerd. Geen externe repository is gekoppeld en er is niets gepusht. Maak zelf een lege repository onder de juiste organisatie/account. Controleer eerst eigenaar en rechten.
+De repository is [Arixconnect/groeitafel](https://github.com/Arixconnect/groeitafel), op branch `main`. De oorspronkelijke initialisatiecommit is behouden. De repository is privé; alleen mensen met toegang kunnen de broncode bekijken.
+
+```bash
+git clone https://github.com/Arixconnect/groeitafel.git
+cd groeitafel
+npm ci
+npm run dev
+```
+
+Voor een klantdemonstratie op je eigen computer gebruik je `npm run build` en daarna `npm run preview`. Open http://localhost:3000. GitHub bevat de broncode; een push maakt niet automatisch een online website. Er is geen hostingdeploy of GitHub Pages-deployment gekoppeld.
+
+Wijzigingen opslaan:
 
 ```bash
 git status
-git remote -v
-# Vervang ORGANISATIE door de daadwerkelijk afgesproken eigenaar.
-git remote add origin https://github.com/ORGANISATIE/groeitafel.git
-git branch -M main
-git push -u origin main
+git add PAD_NAAR_GEWIJZIGD_BESTAND
+git commit -m "Beschrijf de wijziging"
+git push origin main
 ```
 
-Voer die opdrachten pas uit nadat de juiste repository is vastgesteld. Maak bij een bestaande remote geen tweede `origin`; controleer de huidige bestemming. De download bevat de volledige broncode zonder `.git`-historie. Gebruik bij een nieuwe uitgepakte kopie eerst `git init -b main`, `git add .` en `git commit -m "Bouw Groeitafel concept 2027"`.
+Gebruik bij samenwerking bij voorkeur een aparte branch en pull request. De gebouwde `out/`-map en `node_modules/` blijven buiten Git; bouw ze lokaal met de opdrachten hierboven.
 
 Publicatie op het echte domein vereist een aparte opdracht. Een toekomstige conceptpreview hoort privé te blijven totdat delen is afgesproken.
