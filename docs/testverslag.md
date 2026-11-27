@@ -63,3 +63,11 @@ Daarom zijn **mobiele en desktopweergave, echte browsernavigatie, volledige toet
 8. Test gesponsorde ticketvariant, aantallen 0, -1, 1,5 en 21, verwijderen, lege mand en opnieuw beginnen.
 9. Controleer opslag na verversen, 200% zoom, reduced-motion en minstens één screenreader.
 10. Bevestig dat geen persoonsgegevens of betaalgegevens worden gevraagd en dat niets als echte boeking wordt gepresenteerd.
+
+## Aanvulling GitHub Pages — 27 november 2026
+
+- Alle 21 functionele/React-tests opnieuw geslaagd.
+- `npm run build:pages`: build en TypeScript geslaagd met basispad `/groeitafel`.
+- Alle 25 HTML-bestanden gecontroleerd: navigatielinks en lokale assets hebben het juiste basispad en bestaan in de export. Preconnect-links zijn netwerkhints, geen routes.
+- Tafelillustratie verwijst naar `/groeitafel/images/tafel.svg`; `.nojekyll` aanwezig.
+- Previewbranch voorbereid; Pages-activering en live browsercontrole blijven geblokkeerd door de ontbrekende Pages-rechten en onbeschikbare browser.

@@ -1,5 +1,15 @@
 # De Groeitafel — concept 2027
 
+## Websitepreview
+
+**De website is voorbereid voor GitHub Pages; activering door de eigenaar staat nog open.**
+
+[**GitHub Pages activeren**](https://github.com/Arixconnect/groeitafel/settings/pages) · [**Website bekijken zodra Pages actief is**](https://arixconnect.github.io/groeitafel/)
+
+Kies in Settings → Pages: **Deploy from a branch → gh-pages → /(root) → Save**. De gebouwde website staat klaar op `gh-pages`. De tweede link werkt pas na een geslaagde deployment. Deze privé-repository vereist een geschikt GitHub-plan voor Pages. [Uitleg en onderhoud](docs/github-preview.md).
+
+GitHub toont op deze repository-URL altijd de broncode. De website opent via de aparte previewlink hierboven.
+
 Een volledig interactief bespreekconcept in Next.js, TypeScript en Tailwind CSS. Warme papierkleuren, eigen SVG-tafelillustratie en lokale lettertypen. Geen echte registratie, betaling, voorraad, persoonsgegevens, externe API of database.
 
 ## Installeren en ontwikkelen
@@ -104,7 +114,7 @@ npm ci
 npm run dev
 ```
 
-Voor een klantdemonstratie op je eigen computer gebruik je `npm run build` en daarna `npm run preview`. Open http://localhost:3000. GitHub bevat de broncode; een push maakt niet automatisch een online website. Er is geen hostingdeploy of GitHub Pages-deployment gekoppeld.
+Voor een klantdemonstratie op je eigen computer gebruik je `npm run build` en daarna `npm run preview`. Open http://localhost:3000. GitHub bevat de broncode; een push maakt niet automatisch een online website. De gebouwde Pages-preview staat op `gh-pages`; activering en een geslaagde deployment zijn nog nodig. Zie `docs/github-preview.md`.
 
 Wijzigingen opslaan:
 
@@ -117,4 +127,4 @@ git push origin main
 
 Gebruik bij samenwerking bij voorkeur een aparte branch en pull request. De gebouwde `out/`-map en `node_modules/` blijven buiten Git; bouw ze lokaal met de opdrachten hierboven.
 
-Publicatie op het echte domein vereist een aparte opdracht. Een toekomstige conceptpreview hoort privé te blijven totdat delen is afgesproken.
+Publicatie op het echte domein vereist een aparte opdracht. De aangevraagde klantpreview is voorbereid op GitHub Pages. Dit maakt de website openbaar na activering; de bronrepository blijft privé.

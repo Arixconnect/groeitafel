@@ -162,7 +162,7 @@ export default function Home() {
         <div className="hero-visual">
           <span className="visual-label">EEN TAFEL VOL MOGELIJKHEDEN</span>
           <img
-            src="/images/tafel.svg"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/tafel.svg`}
             alt="Illustratie van vier mensen die samen aan een ronde tafel werken, met ik zoek- en ik bied-kaartjes"
             width="700"
             height="660"
