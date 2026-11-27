@@ -2,11 +2,9 @@
 
 ## Websitepreview
 
-**De website is voorbereid voor GitHub Pages; activering door de eigenaar staat nog open.**
+[**Bekijk de website van De Groeitafel**](https://arixconnect.github.io/groeitafel/)
 
-[**GitHub Pages activeren**](https://github.com/Arixconnect/groeitafel/settings/pages) · [**Website bekijken zodra Pages actief is**](https://arixconnect.github.io/groeitafel/)
-
-Kies in Settings → Pages: **Deploy from a branch → gh-pages → /(root) → Save**. De gebouwde website staat klaar op `gh-pages`. De tweede link werkt pas na een geslaagde deployment. Deze privé-repository vereist een geschikt GitHub-plan voor Pages. [Uitleg en onderhoud](docs/github-preview.md).
+De preview is online via GitHub Pages. Op 27 november 2026 zijn de homepage, acht onderliggende routes en tien scripts, stijlen en afbeeldingen gecontroleerd: HTTP 200. De bronrepository en de website zijn openbaar. [Uitleg en onderhoud](docs/github-preview.md).
 
 GitHub toont op deze repository-URL altijd de broncode. De website opent via de aparte previewlink hierboven.
 
@@ -35,7 +33,7 @@ Open http://localhost:3000. `npm start` doet hetzelfde als `npm run preview`. Di
 
 De meegeleverde ZIP bevat de gebouwde `out/`-map. Na uitpakken volstaat `node scripts/preview.mjs` om die versie te bekijken, zonder npm-installatie of internet. Open HTML niet rechtstreeks met `file://`: routes en assets verwachten een webserver. De server is uitsluitend voor lokale preview; gebruik voor productie een geschikte statische host.
 
-**Status van de online preview:** de beheerde preview-relay kon poort 4173 niet openen; Sites is niet ingeschakeld voor deze workspace. Ook het browserhulpmiddel kon niet initialiseren. Er is daarom geen geverifieerde online preview-URL. De broncode en lokale preview zijn voorbereid, maar visuele browser-QA blijft open. Er is niets op groeitafel.nl gepubliceerd. De broncode staat in de afgesproken GitHub-repository; dit maakt de website nog niet online beschikbaar.
+**Status van de online preview:** gepubliceerd op https://arixconnect.github.io/groeitafel/ via branch `gh-pages`. De HTTP-controles slagen; volledige visuele browser-QA blijft open. Er is niets op groeitafel.nl gepubliceerd.
 
 ## Wat werkt
 
@@ -105,7 +103,7 @@ De frontend bewaart geen gezaghebbende prijzen of betaalstatus. In productie: se
 
 ## GitHub en samenwerken
 
-De repository is [Arixconnect/groeitafel](https://github.com/Arixconnect/groeitafel), op branch `main`. De oorspronkelijke initialisatiecommit is behouden. De repository is privé; alleen mensen met toegang kunnen de broncode bekijken.
+De repository is [Arixconnect/groeitafel](https://github.com/Arixconnect/groeitafel), op branch `main`. De oorspronkelijke initialisatiecommit is behouden. De repository is openbaar; iedereen kan de broncode bekijken.
 
 ```bash
 git clone https://github.com/Arixconnect/groeitafel.git
@@ -114,7 +112,7 @@ npm ci
 npm run dev
 ```
 
-Voor een klantdemonstratie op je eigen computer gebruik je `npm run build` en daarna `npm run preview`. Open http://localhost:3000. GitHub bevat de broncode; een push maakt niet automatisch een online website. De gebouwde Pages-preview staat op `gh-pages`; activering en een geslaagde deployment zijn nog nodig. Zie `docs/github-preview.md`.
+Voor een klantdemonstratie op je eigen computer gebruik je `npm run build` en daarna `npm run preview`. Open http://localhost:3000. GitHub bevat de broncode; een push maakt niet automatisch een online website. De gebouwde Pages-preview wordt gepubliceerd vanaf `gh-pages`. Een wijziging op `main` vereist een nieuwe Pages-build en push naar `gh-pages`. Zie `docs/github-preview.md`.
 
 Wijzigingen opslaan:
 
@@ -127,4 +125,4 @@ git push origin main
 
 Gebruik bij samenwerking bij voorkeur een aparte branch en pull request. De gebouwde `out/`-map en `node_modules/` blijven buiten Git; bouw ze lokaal met de opdrachten hierboven.
 
-Publicatie op het echte domein vereist een aparte opdracht. De aangevraagde klantpreview is voorbereid op GitHub Pages. Dit maakt de website openbaar na activering; de bronrepository blijft privé.
+Publicatie op het echte domein vereist een aparte opdracht. De aangevraagde klantpreview is online op GitHub Pages. Zowel de preview als de bronrepository zijn openbaar.
