@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 660" fill="none">
+<defs><filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".07"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#3d3025" flood-opacity=".12"/></filter><pattern id="lines" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 0v18" stroke="#f2eee2" stroke-width="2"/></pattern></defs>
+<!-- Chairs and people, illustrated from above -->
+<g transform="rotate(-12 350 330)">
+<rect x="273" y="18" width="157" height="154" rx="67" fill="#555746"/>
+<path d="M258 127Q260 49 348 50Q439 45 448 127L423 209H273Z" fill="#bec966"/>
+<path d="M288 73q-10 58-22 93l49 39 15-28-32-29 23-62M407 77q33 39 32 91l-57 35-15-29 39-26-26-54" fill="#b97c58"/>
+<ellipse cx="351" cy="72" rx="43" ry="46" fill="#503b30"/>
+<path d="M314 50q38-39 70-1l7 30q-11-18-24-19-36 17-54-3" fill="#292d26"/>
+<path d="M300 99l-11 49 24 20M399 100l14 43-32 23" stroke="#8d9948" stroke-width="2"/>
+<rect x="256" y="489" width="164" height="147" rx="64" fill="#c2bcaa"/>
+<path d="M248 533q17-74 102-73 81 0 91 72l-22 62H271Z" fill="#a1a2c4"/>
+<path d="M269 524l-24-52 46-52 24 23-35 36 21 28M422 518l29-56-56-40-18 29 36 22-19 35" fill="#754b38"/>
+<ellipse cx="348" cy="542" rx="47" ry="49" fill="#3c302a"/>
+<path d="M305 526q-3 62 48 64 42-8 40-54-16 19-43 11-24 4-45-21" fill="#292d26"/>
+</g>
+<rect x="18" y="249" width="153" height="158" rx="68" fill="#a8b08a" transform="rotate(-7 80 320)"/>
+<path d="M111 232q64 18 62 90 0 77-63 101L59 406l-2-155Z" fill="#d46d4f"/>
+<path d="M117 255l66-18 46 62-27 18-37-46-35 14M127 390l59 13 42-54-26-19-29 39-35-12" fill="#e1b395"/>
+<ellipse cx="90" cy="326" rx="48" ry="46" fill="#e5b28e"/>
+<path d="M100 282q-47-16-60 29-10 47 33 62l14-11-6-24 16-14-12-22Z" fill="#453a32"/>
+<rect x="526" y="233" width="154" height="162" rx="64" fill="#c8b4a4" transform="rotate(7 600 300)"/>
+<path d="M577 234q-63 8-66 80-4 76 66 100l61-27V256Z" fill="#f0ece0"/>
+<path d="M577 234q-63 8-66 80-4 76 66 100l61-27V256Z" fill="url(#lines)"/>
+<path d="M565 264l-59-37-50 50 22 24 35-34 34 26M558 383l-62 16-41-53 28-18 25 39 33-12" fill="#a96c45"/>
+<ellipse cx="602" cy="320" rx="47" ry="48" fill="#a96c45"/>
+<path d="M595 273q58-3 57 51-3 45-39 45l-12-17 15-12-4-21-19-11Z" fill="#292d26"/>
+<!-- tabletop -->
+<ellipse cx="350" cy="327" rx="207" ry="206" fill="#ba7853"/>
+<ellipse cx="350" cy="316" rx="207" ry="204" fill="#dfad7e" filter="url(#paper)"/>
+<ellipse cx="350" cy="316" rx="194" ry="192" stroke="#c38d61" stroke-opacity=".45"/>
+<path d="M191 233q152-28 316 0M174 268q153-28 347 3M161 320q176-25 377 2M168 374q181-22 358 2M195 422q141-24 304 0" stroke="#c68f63" stroke-opacity=".26" stroke-width="2"/>
+<!-- laptop -->
+<g transform="rotate(18 435 288)" filter="url(#shadow)"><rect x="382" y="218" width="110" height="76" rx="5" fill="#3c4238"/><rect x="389" y="225" width="96" height="61" rx="2" fill="#f1eddf"/><rect x="399" y="235" width="34" height="6" rx="2" fill="#c9dd74"/><path d="M400 253h38m-38 8h60m-60 8h50" stroke="#a8aa98" stroke-width="3"/><path d="M381 294h112l10 48q0 5-7 5H377q-6 0-5-5Z" fill="#adb3a7"/><path d="M387 303h102m-104 8h106m-108 8h110" stroke="#7b8476" stroke-width="4" stroke-dasharray="6 3"/><rect x="415" y="328" width="39" height="12" rx="2" fill="#cdd1c6"/></g>
+<!-- cards -->
+<g transform="rotate(-14 272 294)" filter="url(#shadow)"><rect x="214" y="248" width="110" height="94" rx="2" fill="#f7f3e6"/><text x="228" y="274" font-family="Arial,sans-serif" font-weight="bold" font-size="13" fill="#353b31">IK ZOEK</text><path d="M228 291h62m-62 11h75m-75 11h49" stroke="#c9c4b5" stroke-width="3"/><path d="m293 264 7-8m-2 14 10-1" stroke="#ca674a" stroke-width="2"/></g>
+<g transform="rotate(10 340 393)" filter="url(#shadow)"><rect x="291" y="356" width="107" height="81" rx="2" fill="#d8e98c"/><text x="305" y="383" font-family="Arial,sans-serif" font-weight="bold" font-size="13" fill="#353b31">IK BIED</text><path d="M305 399h67m-67 11h51" stroke="#91a255" stroke-width="3"/></g>
+<!-- coffee and stationery -->
+<circle cx="343" cy="204" r="23" fill="#c28d64"/><circle cx="340" cy="199" r="20" fill="#f7f1df"/><circle cx="340" cy="199" r="14" fill="#6f4430"/><path d="M357 192q19-4 16 10-3 9-16 5" stroke="#f7f1df" stroke-width="6"/>
+<circle cx="230" cy="379" r="19" fill="#f7f1df"/><circle cx="230" cy="379" r="13" fill="#6f4430"/><path d="M214 373q-17-1-13 11 4 7 14 1" stroke="#f7f1df" stroke-width="5"/>
+<path d="m278 206 31 35" stroke="#33483d" stroke-width="6" stroke-linecap="round"/><path d="m309 241 5 8-10-3" fill="#f7f1df"/>
+<g transform="rotate(-21 439 400)"><rect x="415" y="373" width="47" height="66" rx="4" fill="#cf694c"/><path d="M422 384h31m-31 7h23" stroke="#f8e1c1" stroke-width="2"/></g>
+<!-- hands reaching onto the table -->
+<path d="m182 235 35 24 11 28q-5 13-14 4l-11-16-30-12" fill="#e1b395"/><path d="m519 240-27 21-12 23q-6 10-14 4l-4-8 19-36 24-17" fill="#a96c45"/>
+<path d="m296 130 10 34 20 16q11 8 4 16-8 8-19-3l-26-18-10-40" fill="#b97c58"/>
+<path d="m297 493 10-41 24-22q10-11 18-4 7 8-7 20l-15 18-6 36" fill="#754b38"/>
+<!-- organic annotation -->
+<path d="M578 105q58 38 25 103m8-14-9 17-10-17" stroke="#586044" stroke-width="2" stroke-linecap="round"/>
+<g transform="translate(542 64) rotate(13)"><text fill="#586044" font-family="Georgia,serif" font-style="italic" font-size="22">hier groeit iets.</text></g>
+<g transform="translate(120 492) rotate(-12)"><path d="M0 0v52m-26-26h52m-44-18 36 36m0-36-36 36" stroke="#bf5d40" stroke-width="6"/></g>
+</svg>

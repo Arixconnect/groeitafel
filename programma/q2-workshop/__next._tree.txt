@@ -1,0 +1,6 @@
+:HL["/groeitafel/_next/static/chunks/0qros51o4uu8j.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"id","t":"d","k":"q2-workshop","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"programma","h":131168,"c":"$Q2"}]]
+0:{"b":"4TWUZkpfvNOwNFWBebVXA","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

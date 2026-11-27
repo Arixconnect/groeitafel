@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:"/groeitafel/_next/static/chunks/3fr4yyq8_horn.js"
+3:I[4121,["$2"],"Shell"]
+4:I[39756,["$2"],"default"]
+5:I[37457,["$2"],"default"]
+6:I[22016,["$2"],""]
+c:I[97367,["$2"],"OutletBoundary"]
+d:"$Sreact.suspense"
+f:"ViewportBoundary"
+10:I[97367,["$2"],"$f"]
+12:"MetadataBoundary"
+13:I[97367,["$2"],"$12"]
+15:I[68027,["$2"],"default",1]
+:HL["/groeitafel/_next/static/chunks/0qros51o4uu8j.css","style"]
+:HC["/",""]
+8:X
+a:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$Lb",[["$","script","script-0",{"src":"/groeitafel/_next/static/chunks/1wetrmgotq6xe.js","async":true,"nonce":"$undefined"}]],["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}],"p":false,"v":null}}]]
+9:[["children",{"s":{"n":"id","t":"d","k":"q3-netwerk","s":[]},"h":66048,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$8"},"c":"$Qa"}]]
+7:[["children",{"s":"programma","h":131584,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$8"},"c":"$Q9"}]]
+0:{"P":null,"c":["","programma","q3-netwerk",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/groeitafel/_next/static/chunks/0qros51o4uu8j.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/groeitafel/_next/static/chunks/3fr4yyq8_horn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"nl","children":["$","body",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"section empty-state","children":[["$","h1",null,{"children":"Deze stoel staat ergens anders."}],["$","p",null,{"children":"We kunnen deze pagina niet vinden."}],["$","$L6",null,{"href":"/","className":"button","children":"Terug naar de tafel"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],"p":false,"v":null},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$d",null,{"name":"Next.Metadata","children":"$L14"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$15",[["$","link","0",{"rel":"stylesheet","href":"/groeitafel/_next/static/chunks/0qros51o4uu8j.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"4TWUZkpfvNOwNFWBebVXA"}
+16:"/groeitafel/_next/static/chunks/1wetrmgotq6xe.js"
+17:I[65436,["$2","$16"],"EventDetail"]
+8:C
+b:["$","$L17",null,{"event":{"id":"q3-netwerk","quarter":3,"type":"Netwerkavond","title":"Ruil een uur, win een inzicht","description":"Ontmoet een ondernemer of maker, wissel je hulpvraag uit en doe samen een kleine opdracht.","result":"Een gedeelde werktip en een actie voor de komende week","needs":"Een hulpvraag, iets dat je kunt delen en een open blik.","level":"Nieuwsgierig is genoeg","duration":"2 uur","audience":"Lokale ondernemers en jonge makers. Ervaring met AI of programmeren is niet nodig."}}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+18:I[27201,["$2"],"IconMark"]
+e:null
+14:[["$","title","0",{"children":"Ruil een uur, win een inzicht · De Groeitafel"}],["$","meta","1",{"name":"description","content":"Een concept voor 2027: lokale ondernemers en jonge makers wisselen kennis en creativiteit uit en maken samen iets bruikbaars."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","link","3",{"rel":"icon","href":"/groeitafel/icon.svg?icon.34qmv5s33zn_0.svg","sizes":"any","type":"image/svg+xml"}],["$","$L18","4",{}]]
